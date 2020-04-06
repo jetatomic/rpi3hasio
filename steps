@@ -1,0 +1,12 @@
+
+
+sudo -i 
+apt update
+apt full-upgrade
+apt install -y apparmor-utils apt-transport-https avahi-daemon ca-certificates curl dbus jq socat network-manager software-properties
+
+
+curl -sSL https://get.docker.com | sh
+
+
+curl -sL https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh | bash -s -- -m raspberrypi3
