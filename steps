@@ -1,6 +1,11 @@
 
 
-sudo -i 
+sudo -i
+
+raspi-config
+  Setup Wifi, enable ash, etc.
+
+
 apt update
 apt full-upgrade
 apt install -y apparmor-utils apt-transport-https avahi-daemon ca-certificates curl dbus jq socat network-manager software-properties
